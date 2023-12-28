@@ -17,7 +17,7 @@ const path = require('path');
 app.use(express.static('public'));
 
 //Middlewares
-app.use(express.urlencoded({ entended: false }));
+app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 
 //INDUCES
