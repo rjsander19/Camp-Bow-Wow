@@ -32,7 +32,7 @@ app.get('/', async (req, res) => {
 });
 
 //N
-app.get('new', (req, res) => {
+app.get('/new', (req, res) => {
     res.render('new.ejs', { list: {} });
 });
 
