@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css" />
+    <title>Care Tracker Index</title>
+</head>
+<body>
+    <h1>Welcome to your Care Tracker!</h1>
+    <h2>Your current to-do lists:</h2>
+<% lists.forEach(list => { %>
+
+<ul id="UL">
+    <a href="/<%=list._id%>">
+        <%=list.title %> </a>
+</ul>
+
+<% }) %>
+
+</br>
+<div class="input">
+        <a href="/new" id="new"> Add a New List </a>
+</div>     
+    </body>
+</html>
+

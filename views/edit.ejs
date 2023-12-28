@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/edit.css" />
+    <title>Edit List</title>
+</head>
+    <nav>
+    <a href="/">Back to Lists Index</a>
+    </nav>
+
+    <h1>Edit Page</h1>
+
+<body>
+<div class="input">
+    <form method="POST" action="/<%= list._id %>?_method=PUT">
+
+        <input type="text" name="title" placeholder="Title"/><br />
+        <input type="text" name="description" placeholder="Description"/><br />
+        <input type="submit" name="" value="Submit Changes" />
+    </form>
+</div>
+    <form method="POST" action="/<%= list._id %>?_method=DELETE">
+    <button onclick="return confirm('Are you sure you want to delete this item')">Delete List</button>
+    </form>
+
+
+</body>
+
+
+</html>
