@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  div {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  
+  h1 {
+    background-color: #c46d5e;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  input {
+    margin: 10px;
+    border: black solid;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+  }
+
+
+  input[type=submit] {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  a:link {
+    cursor: pointer;
+    color: black; 
+    position: relative;
+    background: #eee;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+a:visited {
+    cursor: pointer;
+    color: black;
+    position: relative;
+    background: #eee;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: black;
+    position: relative;
+    background: #eee;
+    font-size: 20px;
+    transition: 0.2s;
+}
